@@ -1,0 +1,29 @@
+.container{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9fb85bad;
+    text-align: center;
+    border: 2px solid #5b6349ad;
+    padding: 2%;
+    width: 13rem;
+    margin:2rem 0 0 3rem;
+    border-radius: 3rem;
+    transition: .5s;
+    box-shadow: 5px 4px 10px ;
+}
+.container:hover{
+    transform: scale(1.1);   
+}
+.card img {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #ededed;
+    border-radius: 6rem;
+}
+.card h3{
+    font-size: 1.4rem;
+}
+.card span{
+ font-size: 1.1rem;
+}
